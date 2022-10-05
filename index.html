@@ -6,32 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   </head>
   <body class="body-content" style="max-width: 1300px">
     <!-- Header -->
     <header class="header">
       <div class="navbar-div">
         <h1>Mark Nakayama</h1>
-        <p>Software Developer in Denver, CO</p>
+        <p class="title">Software Developer in Denver, CO</p>
         <img
         src="https://avatars.githubusercontent.com/u/111313417?v=4"
         class="profile-pic"
         alt="My Photo"
       />
         <a href="#about" class="button">About</a>
-        <a href="#portolio" class="button">Portfolio</a>
+        <a href="#projects" class="button">Projects</a>
         <a href="#employment" class="button">Employment</a>
         <a href="#skills" class="button">Skills</a>
         <a href="#education" class="button">Education</a>
-        <div>
-          <a href="https://www.linkedin.com/in/mark-nakayama-16b004116/" target="_blank" rel="noopener noreferrer">Linkedin</a>
-          <a href="https://github.com/Northermata2387" target="_blank" rel="noopener noreferrer">github</a>
+        <div class="contact">
+          <i class="devicon-linkedin-plain colored" class="linked-in-img"></i>
+          <a href="https://www.linkedin.com/in/mark-nakayama-16b004116/" class="button" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          <i class="devicon-github-original" class="github-img"></i>
+          <a href="https://github.com/Northermata2387" class="button" target="_blank" rel="noopener noreferrer">github</a>
         </div>
       </div>
     </header>
 
     <!-- First Grid: Logo & About -->
-    <div class="first-grid" id="about">
+    <div class="grid" id="about">
       <div class="about-me">
         <div class="about-text">
           <p>
@@ -46,10 +49,10 @@
       </div>
     </div>
 
-    <!-- Second Grid: portfolio -->
-    <div class="second-grid" id="portolio">
-      <div class="portfolio">
-        <h3>Portfolio</h3>
+    <!-- Second Grid: project -->
+    <div class="grid" id="projects">
+      <div class="projects">
+        <h3>Projects</h3>
         <div>
           <iframe
             width="560"
@@ -60,8 +63,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <p>name of project</p>
-          <a href="">name of company (linked to employment section)</a> <br>
+          <a href="https://youtu.be/qI9md4mVaU0" target="_blank" rel="noopener noreferrer">My Plant List</a>
+          <a href="">name of company (linked to employment section)</a>
           <p>short description</p>
           <a href="">github repo</a>
           <p>List the programs used</p>
@@ -70,7 +73,7 @@
     </div>
 
     <!-- Fourth Grid: Employment -->
-    <div class="fourth grid" id="employment">
+    <div class="grid" id="employment">
       <div class="employment">
         <h3>Employment</h3>
         <div class="employment-container">
@@ -117,8 +120,8 @@
     </div>
 
     <!-- Fifth Grid: Skills -->
-    <div class="skills" id="skills">
-      <div>
+    <div class="grid" id="skills">
+      <div class="skills">
         <h3>Skills</h3>
         <p>
           HTML, PHP, JavaScript, PHP 7, Objective-C, Swift, CSS, Flash
@@ -171,7 +174,7 @@
     </div>
 
     <!-- Sixth Grid: Education -->
-    <div class="sixth grid" id="education">
+    <div class="grid" id="education">
       <div class="education">
         <h3>Education</h3>
         <div class="education-container">
@@ -192,6 +195,7 @@
         </div>
       </div>
     </div>
+  </main>
     <!-- End of Body -->
   </body>
   <!-- End of HTML -->
