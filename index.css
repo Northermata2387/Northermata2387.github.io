@@ -9,13 +9,16 @@ body {
 
 .header {
     /* position: fixed; */
+    color: whitesmoke;
 }
 
 .navbar-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(64, 64, 64);
     border-bottom: 1px solid whitesmoke;
+    width: 250px;
+    padding: 20px;
 }
 
 .button {
@@ -39,6 +42,7 @@ body {
 .profile-pic {
     display: flex;
     flex: content;
+    border-radius: 50%;
 }
 
 /* Second Grid: Experience & Employment */
