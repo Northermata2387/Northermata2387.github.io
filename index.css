@@ -1,0 +1,53 @@
+/* Full Page */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+}
+
+/* Header */
+
+.header {
+    /* position: fixed; */
+}
+
+.navbar-div {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(64, 64, 64);
+    border-bottom: 1px solid whitesmoke;
+}
+
+.button {
+    color: whitesmoke;
+    font-size: 16px;
+    text-decoration: none;
+    width:auto;
+    padding: 16px;
+}
+
+.button:hover {
+    color: lightskyblue;
+}
+
+/* First Grid: Logo & About */
+
+.image-box {
+    border-left: 1px solid aqua;
+}
+
+.profile-pic {
+    display: flex;
+    flex: content;
+}
+
+/* Second Grid: Experience & Employment */
+
+/* Third Grid: Projects & Videos */
+
+/* Fourth Grid: Skills & Education */
+
+/* Fifth Grid: Swing By & Contact */
+
+
+
