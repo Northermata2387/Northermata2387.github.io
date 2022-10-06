@@ -73,6 +73,7 @@ section {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    color: #454545;
 }
 
 /* First Grid: About */
@@ -93,13 +94,13 @@ section {
     padding-right: 4rem;
 }
 
-/* Second Grid: Experience & Employment */
+/* Second Grid: Projects */
 
-/* Third Grid: Projects & Videos */
+/* Third Grid: Skills */
 
-/* Fourth Grid: Skills & Education */
+/* Fourth Grid: Employment */
 
-/* Fifth Grid: Swing By & Contact */
+/* Fifth Grid: Education */
 
 
 
