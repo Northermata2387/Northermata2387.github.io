@@ -76,6 +76,15 @@ section {
     margin-left: 22rem;
 }
 
+.hyperlinks {
+    color: #454545;
+    text-decoration: none;
+}
+
+.hyperlinks:hover {
+    color: #f5f5f5;
+}
+
 /* First Grid: About */
 
 .about-me {
@@ -84,14 +93,6 @@ section {
     position: absolute;
     top: 12rem;
     padding-right: 3rem;
-}
-
-.tech-list {
-    font-size: 1.15rem;
-    text-align: center;
-    position: absolute;
-    bottom: 1rem;
-    padding-right: 4rem;
 }
 
 /* Second Grid: Projects */
@@ -119,6 +120,7 @@ iframe{
     width: 30rem;
     padding-top: 1rem;
     padding-left: 2rem;
+    color: #454545;
 }
 
 /* Third Grid: Skills */
@@ -127,9 +129,29 @@ iframe{
     padding-top: 7rem;
 }
 
-/* Fourth Grid: Employment */
+/* Fourth Grid: Experience*/
+
+.experience {
+    padding-top: 1.5rem;
+}
 
 /* Fifth Grid: Education */
+
+.education {
+    padding-top: 3rem;
+}
+
+.degree {
+    padding: -1rem;
+}
+
+.devmountian-logo {
+    width: 5rem;
+}
+
+.jw-logo {
+    width: 4.2rem;
+}
 
 
 
