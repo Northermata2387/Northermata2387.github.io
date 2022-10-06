@@ -69,11 +69,11 @@ body {
 /* All grids */
 
 section {
-    margin-left: 22rem;
     display: flex;
     flex-direction: column;
     height: 100vh;
     color: #454545;
+    margin-left: 22rem;
 }
 
 /* First Grid: About */
@@ -96,7 +96,36 @@ section {
 
 /* Second Grid: Projects */
 
+.projects {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    text-align: left;
+    padding: 1rem 3rem 3rem 0;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    padding-top: 1rem;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+.project-text {
+    width: 30rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
 /* Third Grid: Skills */
+
+.skills {
+    padding-top: 2rem;
+}
 
 /* Fourth Grid: Employment */
 
