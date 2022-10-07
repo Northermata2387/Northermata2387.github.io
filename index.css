@@ -116,18 +116,20 @@ section {
     flex-direction: column;
     font-size: 1rem;
     text-align: left;
-    padding: 1rem 3rem 3rem 0;
+    padding: 2.5rem 3rem 3rem 0;
 }
 
 .project-box {
     display: flex;
     flex-direction: row;
     height: 45vh;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
 iframe{
     border-radius: 5px;
+    height: 18rem;
+    width: 33rem;
 }
 
 .project-text {
@@ -166,7 +168,7 @@ iframe{
 
 .dm-degree-name {
     padding-top: 0.5rem;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
 }
 
 .jw-degree-name {
@@ -174,7 +176,7 @@ iframe{
 }
 
 .devmountian-logo {
-    width: 5rem;
+    width: 4.5rem;
 }
 
 .jw-logo {
