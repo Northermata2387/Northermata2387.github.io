@@ -66,7 +66,7 @@ body {
     width: 60px;
 }
 
-/* All grids */
+/* All Grids */
 
 section {
     display: flex;
@@ -88,11 +88,25 @@ section {
 /* First Grid: About */
 
 .about-me {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     text-align: left;
     position: absolute;
-    top: 12rem;
+    top: 11rem;
     padding-right: 3rem;
+    text-indent: 50px;
+    line-height: 1.5;
+}
+
+.about-logos {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 10rem;
+    padding-left: 12rem;
+    font-size: 6rem;
+}
+
+.devicon {
+    padding-right: 5rem;
 }
 
 /* Second Grid: Projects */
@@ -138,11 +152,25 @@ iframe{
 /* Fifth Grid: Education */
 
 .education {
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .degree {
     padding: -1rem;
+}
+
+.school-logo-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.dm-degree-name {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.jw-degree-name {
+    padding-left: 2rem;
 }
 
 .devmountian-logo {
@@ -151,6 +179,11 @@ iframe{
 
 .jw-logo {
     width: 4.2rem;
+}
+
+.degree-details {
+    padding-left: 6rem;
+    padding-bottom: 3rem;
 }
 
 
