@@ -5,8 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="body-content" style="max-width: 1300px">
     <!-- Header -->
@@ -25,104 +28,113 @@
         <a href="#experience" class="button">Experience</a>
         <a href="#education" class="button">Education</a>
         <div>
-          <i class="devicon-linkedin-plain colored contact"></i>
-          <a href="https://www.linkedin.com/in/mark-nakayama-16b004116/" class="button" target="_blank" rel="noopener noreferrer">Linkedin</a>
+          <a href="https://www.linkedin.com/in/mark-nakayama-16b004116/" class="button" target="_blank" rel="noopener noreferrer"><i class="devicon-linkedin-plain colored contact linkedin-btn"></i></a>
         </div>
         <div>
-          <i class="devicon-github-original contact"></i>
-          <a href="https://github.com/Northermata2387" class="button" target="_blank" rel="noopener noreferrer">github</a>
+          <a href="https://github.com/Northermata2387" class="button" target="_blank" rel="noopener noreferrer"><i class="devicon-github-original contact github-btn"></i></a>
         </div>
       </div>
     </header>
 
     <!-- First Grid: About -->
-    <section class="grid" id="about">
-      <div>
-        <p class="about-me">
-          Mark is a full-stack engineer with experience in Python, HTML/CSS and Javascript. He's concentrated on quickly learning new skills and programming languages, problem solving, domain driven design, and website optimization. He spends his personal time researching, with an interest in skin care formulations and perrenial landscaping design.
-        </p>
-      </div>
-      <div class="about-logos">
-        <i class="devicon devicon-python-plain"></i>
-        <i class="devicon devicon-html5-plain-wordmark"></i>
-        <i class="devicon devicon-css3-plain-wordmark"></i>
-        <i class="devicon devicon-javascript-plain"></i>
-      </div>
-    </section>
+    <main>
+      <section class="about" id="about">
+        <div>
+          <p class="about-me">
+            Mark is a full-stack engineer with experience in Python, Flask, SQLAlchemy, and HTML/CSS. He focuses on professional communication, a steep learning curve when implementing new skills/languages, and consistent communication throughout development. A mind set on problem solving, domain driven design, and website optimization. He spends his personal time researching, with an interest in perennial landscaping design.
+          </p>
+        </div>
+        <div class="about-logos">
+          <i class="devicon devicon-python-plain"></i>
+          <i class="devicon flask devicon-flask-original"></i>
+          <i class="devicon sqla devicon-sqlalchemy-plain"></i>
+          <i class="devicon devicon-html5-plain-wordmark"></i>
+          <i class="devicon devicon-css3-plain-wordmark"></i>
+       </div>
+     </section>
 
-    <!-- Second Grid: Project -->
-    <section id="projects">
-      <div class="grid projects">
-        <div class="project-box">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/qI9md4mVaU0" 
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <div class="project-text">
-            <h3>My Plant List</h3>
-            <a href="" class="hyperlinks">Devmountain
+     <!-- Second Grid: Project -->
+     <section id="projects">
+       <div class="grid projects">
+         <div class="project-box">
+            <iframe
+              width="560"
+             height="315"
+              src="https://www.youtube.com/embed/qI9md4mVaU0" 
+              title="YouTube video player"
+             frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen
+            ></iframe>
+           <div class="project-text">
+              <h2 class="project-title">My Plant List</h2>
+              <p class="project-business">Devmountain</p>
+                <!-- (linked to employment section) -->
+              </a>
+             <p class="project-desc">My Plant List is a full stack web application designed to create a personal list of plants for hobbyists and professionals to use for gardening or landscaping projects. A db.json was used to generate example plant information for the user's reference. A user can fill in the provided form to create cards with plant details and use the newly created list of plants for upcoming projects.</p>
+              <a href="https://github.com/Northermata2387/F28-capstone-project" target="_blank" rel="noopener noreferrer" class="hyperlinks">
+                <div class="flex-row ">
+                  <i class="devicon-github-original contact"></i>
+                  <p class="repo">Repository</p>
+                </div>
+              </a>
+             <p>JavaScript | Node.js | HTML/CSS | JSON | CORS | Express</p>
+           </div>
+         </div>
+         <div class="project-box">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/nbmJnCHXaW8" 
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+             allowfullscreen
+            ></iframe>
+            <div class="project-text">
+             <h2 class="project-title">Upcoming Project!</h2>
+              <!-- <a href="">(Project created for...) -->
               <!-- (linked to employment section) -->
-            </a>
-            <p>My Plant List is a full stack web application designed to create a personal list of plants for hobbyists and professionals to use for gardening or landscaping projects. A db.json was used to generate example plant information for the user's reference. A user can fill in the provided form to create cards with plant details and use the newly created list of plants for upcoming projects.</p>
-            <a href="https://github.com/Northermata2387/F28-capstone-project" target="_blank" rel="noopener noreferrer" class="hyperlinks">github repo link</a>
-            <p>Node.js | Javascript | HTML/CSS | API | db.json | Cors | Express</p>
+              </a>
+              <p>Launching on Friday 12/02/2022!</p>
+              <!-- <a href="">github repo link</a> -->
+             <!-- <p>List the programs used for the project</p> -->
+           </div>
           </div>
         </div>
-        <div class="project-box">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/nbmJnCHXaW8" 
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <div class="project-text">
-            <h3>Upcoming Project!</h3>
-            <!-- <a href="">(Project created for...) -->
-              <!-- (linked to employment section) -->
-            </a>
-            <p>Launching on Friday 12/02/2022!</p>
-            <!-- <a href="">github repo link</a> -->
-            <!-- <p>List the programs used for the project</p> -->
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Fourth Grid: Skills -->
-    <section id="skills">
-      <div class="grid">
-        <div class="skills">
-          <h3>Languages</h3>
-          <p>
-            Python, HTML, CSS, PHP, JavaScript
-          </p>
-          <h3>Libraries</h3>
-          <p>
-            Node.js, Selenium
-          </p>
-          <h3>Tools</h3>
-          <p>
-            Vscode, Git, Heroku, Terminal
-          </p>
-          <h3>Paradigms</h3>
-          <p>
-            REST, Test-driven Development (TDD)
-          </p>
-          <h3>Storage</h3>
-          <p>
-            MySQL, Postgres
-          </p>
-          <h3>Other</h3>
-          <p>
-            Data Analysis, APIs, Software Development, Full-stack, UI Animation, User Experience (UX), eCommerce, Regular Expressions
+      <!-- Fourth Grid: Skills -->
+      <section id="skills">
+        <div class="grid">
+          <div class="skills">
+           <h2 class="skills-title">Languages</h2>
+            <p class="skills-list">
+              Python, Python 3, SQL, HTML, CSS, JavaScript
+           </p>
+           <h2 class="skills-title">Frameworks</h2>
+           <p class="skills-list">
+             Flask, Bootstrap, Express
+            </p>
+           <h2 class="skills-title">Libraries</h2>
+           <p class="skills-list">
+            SQLAlchemy, Node.js, Selenium
+            </p>
+           <h2 class="skills-title">Tools</h2>
+           <p class="skills-list">
+              VSCode, PyCharm, Jupyter, Slack, Git, Heroku, Terminal, Postman, GitHub, Discord
+           </p>
+            <h2 class="skills-title">Paradigms</h2>
+            <p class="skills-list">
+              Object-oriented Programming (OOP), CRUD, REST
+           </p>
+            <h2 class="skills-title">Storage</h2>
+            <p class="skills-list">
+              PostgresSQL, MySQL, Session
+           </p>
+            <h2 class="skills-title">Additional</h2>
+          <p class="skills-list">
+            APIs, Excel, CSV, Data Analysis, Software Development, Full-stack, UX, Regular Expressions, HTTP Server, GUI, PowerShell, GitBash
           </p>
         </div>
       </div>
@@ -133,31 +145,31 @@
     <section id="experience">
       <div class="experience">
         <div>
-          <h3>Python Software Engineer</h3>
-          <p>DevMountain | Lehi, Utah</p>
-          <p>September 2022 - December 2022</p>
-          <li>Executed</li>
-          <li>Programmed</li>
-          <li>Built</li>
+          <h2 class="exp-title">Python Software Engineer</h2>
+          <p class="exp-location">DevMountain | Lehi, Utah</p>
+          <p class="exp-dates">September 2022 - December 2022</p>
+          <li>Executed a full-stack Flask application with multiple endpoints</li>
+          <li>Programmed a SQLAlchemy database and full CRUD functionality</li>
+          <li>Built a user login system with operating features and functions</li>
           <p>
-            Technologies: Python| PyScript| SQL | Express | Cors | Postman | Full-stack
+            Technologies: Python | Flask | CRUD | Jinja2 | SQLAlchemy
           </p>
         </div>
         <div>
-          <h3>Javascript Software Developer</h3>
-          <p>DevMountain | Lehi, Utah</p>
-          <p>September 2022 - December 2022</p>
-          <li>Developed</li>
-          <li>Engineered</li>
-          <li>Implemented and launched</li>
+          <h2 class="exp-title">Javascript Software Developer</h2>
+          <p class="exp-location">DevMountain | Lehi, Utah</p>
+          <p class="exp-dates">September 2022 - December 2022</p>
+          <li>Developed an effective front-end from a lo-fi wireframe, style guide, and hi-fi wireframe</li>
+          <li>Engineered a unique controller.js with 3 REST functions as part of a MVP list</li>
+          <li>Implemented and launched a video demo of the project for presentation</li>
           <p>
-            Technologies: Node.js | Javascript | HTML/CSS | API | db.json | Cors | Express | Full-stack
+            Technologies: JavaScript | Node.js | HTML/CSS | JSON | CORS | Express 
           </p>
         </div>
         <div>
-          <h3>Report Analyst</h3>
-          <p>Bluebird Botanicals | Louisville, CO	</p>
-          <p>January 2021  - January 2022</p>
+          <h2 class="exp-title">Report Analyst</h2>
+          <p class="exp-location">Bluebird Botanicals | Louisville, CO	</p>
+          <p class="exp-dates">January 2021  - January 2022</p>
           <li>Implemented unique MySQL queries and tables for data analysis</li>
           <li>Collaborated across all departments to proactively create data reporting and analytics solutions</li>
           <li>Built and developed multiple unique Excel reports for executive resources</li>
@@ -174,31 +186,31 @@
         <div class="degree">
           <div class="school-logo-name">
             <img src="./images/devmountain.png" alt="Devmountain logo" class="devmountian-logo">
-            <h3 class="dm-degree-name">Devmountain | Lehi, UT</h3>
-          </div>
-          <div class="degree-details">
-            <p>Software Engineering Python</p>
-            <p>December 2022</p>
-          </div>
-        </div>
-        <div class="degree">
-          <div class="school-logo-name">
-            <img src="./images/J&W-logo.png" alt="Devmountain logo" class="jw-logo">
-            <h3 class="jw-degree-name">Johnson & Wales University | Denver, CO</h3>
-          </div>
-          <div class="degree-details">
-            <p>Bachelor of Science - Nutrition and Dietetics</p>
-            <p>May 2016</p>
+            <div>
+              <h2 class="dm-degree-name">Devmountain | Lehi, UT</h2>
+              <p class="sub-degree">Software Engineering Python</p>
+              <p class="sub-degree">December 2022</p>
+            </div>
           </div>
         </div>
         <div class="degree">
           <div class="school-logo-name">
             <img src="./images/J&W-logo.png" alt="Devmountain logo" class="jw-logo">
-            <h3 class="jw-degree-name">Johnson & Wales University | Denver, CO</h3>
+            <div>
+              <h2 class="dm-degree-name">Johnson & Wales University | Denver, CO</h2>
+              <p class="sub-degree">Bachelor of Science - Nutrition and Dietetics</p>
+              <p class="sub-degree">May 2016</p>
+            </div>
           </div>
-          <div class="degree-details">
-            <p>Associate in Science - Culinary Arts</p>
-            <p>May 2011</p>
+        </div>
+        <div class="degree">
+          <div class="school-logo-name">
+            <img src="./images/J&W-logo.png" alt="Devmountain logo" class="jw-logo">
+            <div>
+              <h2 class="dm-degree-name">Johnson & Wales University | Denver, CO</h2>
+              <p class="sub-degree">Associate in Science - Culinary Arts</p>
+              <p class="sub-degree">May 2011</p>
+            </div>
           </div>
         </div>
       </div>
