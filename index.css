@@ -1,90 +1,106 @@
-/* Full Page */
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Spectral", serif;
-  background-color: hsl(22, 49%, 91%);
-  display: grid;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
+  color: hsl(208, 18%, 35%);
+  background-color: hsl(210, 33%, 96%);
 }
 
 /* Header */
 
 .header {
+  color: hsl(210, 100%, 42%);
   position: fixed;
-  color: hsl(210, 7%, 77%);
   text-align: center;
-  font-family: "Spectral SC", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-div {
   display: flex;
   flex-direction: column;
-  background-color: hsl(0, 49%, 17%);
+  background-color: hsl(0, 0%, 100%);
   width: 18rem;
   height: 100vh;
   padding: 2rem 0 2rem 0;
-  box-shadow: 4px -1px 4px hsl(0, 49%, 17%);
+  border-right: 1px solid hsl(210, 33%, 96%);
 }
 
 .nav-bar-name {
   margin-bottom: 0;
+  font-size: 1.65rem;
 }
 
 .nav-bar-title {
+  color: hsl(211, 61%, 10%);
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 0.8rem;
 }
 
 .profile-pic {
-  border-radius: 50%;
-  box-shadow: 0px 0px 30px hsl(0, 49%, 37%);
-  margin: 1rem 0 1rem 4rem;
-  width: 10rem;
+  border-radius: 15%;
+  margin: 0rem 0 1rem 3rem;
+  width: 12rem;
 }
 
 .button {
-  color: hsl(210, 7%, 77%);
-  font-size: 16px;
+  color: hsl(211, 61%, 10%);
+  font-size: 1rem;
   text-decoration: none;
-  width: auto;
-  padding-top: 1.5rem;
-  padding-bottom: 0;
+  width: fit-content;
+  margin: 0;
+  padding: 0.8rem;
+  border-radius: 15px;
+}
+
+.about-btn {
+  margin-left: 6.9rem;
+}
+
+.projects-btn {
+  margin-left: 6.4rem;
+}
+
+.skills-btn {
+  margin-left: 7rem;
+}
+
+.exp-btn {
+  margin-left: 5.9rem;
+}
+
+.edu-btn {
+  margin-left: 6.1rem;
+  margin-bottom: 0.4rem;
 }
 
 .button:hover {
-  color: hsl(210, 7%, 57%);
+  color: hsl(208, 18%, 35%);
+  background-color: hsl(210, 33%, 96%);
 }
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
+.navbar-logo-div {
+  margin: 0.8rem;
 }
 
-.linkedin-btn {
-  transition: background-color 1s;
+.nav-bar-logo {
+  color: hsl(210, 100%, 45%);
+  font-size: 1.3rem;
+  padding: 0.3rem 0.3rem 0rem 0.3rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid hsl(210, 33%, 76%);
 }
 
-.linkedin-btn:hover {
-  color: hsl(199, 85%, 26%);
+.nav-bar-logo:hover {
+  color: hsl(210, 100%, 42%);
+  background-color: hsl(210, 33%, 96%);
 }
 
-.github-btn {
-  color: hsl(210, 7%, 77%);
-  transition: background-color 1s;
-}
-
-.github-btn:hover {
-  color: hsl(210, 7%, 57%);
-}
-
-/* Scroll Snap (not implemented)*/
+/* Snap to section option  */
 .scroller {
   height: 100vh;
   width: 100vw;
@@ -103,17 +119,16 @@ section {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  color: hsl(16, 67%, 38%);
   margin-left: 22rem;
 }
 
 .hyperlinks {
-  color: hsl(16, 67%, 38%);
+  color: hsl(210, 100%, 42%);
   text-decoration: none;
 }
 
 .hyperlinks:hover {
-  color: hsl(16, 67%, 28%);
+  background-color: hsl(0, 0%, 100%);
 }
 
 /* First Grid: About */
@@ -123,20 +138,31 @@ section {
   flex-direction: column;
 }
 
+.about-me-div {
+  margin-top: 7.25rem;
+  padding: 0rem 1.8rem 0rem 1.8rem;
+  border-radius: 10px;
+  width: 62rem;
+  background: linear-gradient(
+    to right,
+    hsl(210, 100%, 45%),
+    hsl(210, 100%, 42%)
+  );
+}
+
 .about-me {
-  font-size: 1.4rem;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.28rem;
   text-align: left;
-  padding-top: 7.3rem;
-  padding-right: 3rem;
   line-height: 1.5;
 }
 
 .about-logos {
+  color: hsl(210, 100%, 42%);
   padding-top: 7rem;
   padding-bottom: 10rem;
   padding-left: 6rem;
   font-size: 6rem;
-  color: hsl(16, 67%, 28%);
 }
 
 .devicon {
@@ -156,23 +182,30 @@ section {
 .project-box {
   display: flex;
   flex-direction: row;
-  height: 45vh;
+  height: 18rem;
+  width: 66rem;
+  margin-bottom: 3rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  border: 1px solid hsl(210, 33%, 76%);
 }
 
 iframe {
-  border-radius: 5px;
-  height: 18rem;
+  margin: 1rem 0 0 1rem;
+  border-radius: 10px;
+  height: 16rem;
   width: 33rem;
 }
 
 .project-text {
   width: 30rem;
-  margin-top: 0;
+  margin-top: 1rem;
   padding-left: 2rem;
-  margin-top: 0;
 }
 
 .project-title {
+  color: hsl(210, 100%, 42%);
+  font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
@@ -182,14 +215,19 @@ iframe {
 
 .project-desc {
   margin-top: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 0;
+  padding-right: 1rem;
 }
 
 .flex-row {
   display: flex;
   flex-direction: row;
   height: 2.5rem;
+}
+
+.github-repo {
+  margin-top: 1.7rem;
 }
 
 .repo {
@@ -200,10 +238,12 @@ iframe {
 /* Third Grid: Skills */
 
 .skills {
-  padding-top: 3.1rem;
+  margin-top: 7rem;
 }
 
 .skills-title {
+  color: hsl(210, 100%, 42%);
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
@@ -214,10 +254,21 @@ iframe {
 /* Fourth Grid: Experience*/
 
 .experience {
-  padding-top: 0rem;
+  padding-top: 1.6rem;
+}
+
+.exp-div {
+  border: 1px solid hsl(210, 33%, 76%);
+  border-radius: 10px;
+  width: 39rem;
+  padding: 0 0 0 2rem;
+  margin: 0 0 1.2rem 0;
+  font-size: 0.9rem;
 }
 
 .exp-title {
+  color: hsl(211, 61%, 10%);
+  font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
@@ -232,12 +283,16 @@ iframe {
 /* Fifth Grid: Education */
 
 .education {
-  padding-top: 5rem;
+  margin-top: 3.3rem;
 }
 
-.degree {
-  padding: -1rem;
-  margin-bottom: 2rem;
+.degree-div {
+  background-color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(210, 33%, 76%);
+  width: 38rem;
+  padding: 0 0 1rem 2rem;
+  border-radius: 10px;
+  margin-bottom: 3.3rem;
 }
 
 .school-logo-name {
@@ -246,6 +301,8 @@ iframe {
 }
 
 .dm-degree-name {
+  color: hsl(210, 100%, 42%);
+  font-family: "Roboto", sans-serif;
   padding-top: 0.5rem;
   padding-left: 1.5rem;
 }
@@ -259,13 +316,14 @@ iframe {
 }
 
 .devmountian-logo {
-  padding-top: 1.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
+  padding: 2.9rem 0 1rem 0;
+  width: 5.5rem;
+  height: 5.5rem;
 }
 
 .jw-logo {
-  padding-top: 1.9rem;
+  padding: 3.3rem 0 0 0.5rem;
+  margin-right: 0.6rem;
   width: 4.5rem;
   height: 4.5rem;
 }
