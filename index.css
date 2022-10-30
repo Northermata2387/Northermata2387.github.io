@@ -6,7 +6,6 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   color: hsl(208, 18%, 35%);
-  background-color: hsl(210, 33%, 96%);
 }
 
 /* Header */
@@ -25,7 +24,7 @@ body {
   width: 18rem;
   height: 100vh;
   padding: 2rem 0 2rem 0;
-  border-right: 1px solid hsl(210, 33%, 96%);
+  border-right: 3px solid hsl(210, 33%, 96%);
 }
 
 .nav-bar-name {
@@ -118,8 +117,6 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  margin-left: 22rem;
 }
 
 .hyperlinks {
@@ -136,6 +133,9 @@ section {
 .about {
   display: flex;
   flex-direction: column;
+  padding-left: 22rem;
+  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
 }
 
 .about-me-div {
@@ -158,25 +158,32 @@ section {
 }
 
 .about-logos {
+  display: flex;
+  flex-direction: row;
   color: hsl(210, 100%, 42%);
-  padding-top: 7rem;
-  padding-bottom: 10rem;
-  padding-left: 6rem;
+  padding: 9rem 0 10rem 6rem;
   font-size: 6rem;
 }
 
 .devicon {
-  padding-right: 4rem;
+  padding-right: 6rem;
 }
 
 /* Second Grid: Projects */
+
+.projects-section {
+  background-color: hsl(210, 33%, 96%);
+  width: 98.9vw;
+  height: 100vh;
+}
 
 .projects {
   display: flex;
   flex-direction: column;
   font-size: 1rem;
   text-align: left;
-  padding: 2.8rem 3rem 3rem 0;
+  padding: 2.8rem 0 0 0;
+  padding-left: 22rem;
 }
 
 .project-box {
@@ -210,6 +217,7 @@ iframe {
 }
 
 .project-business {
+  color: hsl(211, 61%, 10%);
   margin: 0;
 }
 
@@ -235,39 +243,58 @@ iframe {
   padding-left: 0.5rem;
 }
 
+.proj-skill-list {
+  color: hsl(211, 61%, 10%);
+}
+
+.proj-launch {
+  color: hsl(211, 61%, 10%);
+}
+
 /* Third Grid: Skills */
 
+.skills-section {
+  background-color: hsl(211, 61%, 21%);
+  width: 98.9vw;
+}
+
 .skills {
-  margin-top: 7rem;
+  padding-top: 6rem;
+  padding-left: 22rem;
+  height: 100vh;
 }
 
 .skills-title {
-  color: hsl(210, 100%, 42%);
+  color: hsl(206, 79%, 78%);
   font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
 
 .skills-list {
   margin-top: 0;
+  color: hsl(0, 0%, 100%);
 }
 
 /* Fourth Grid: Experience*/
 
 .experience {
   padding-top: 1.6rem;
+  background-color: hsl(0, 0%, 100%);
+  padding-left: 22rem;
 }
 
 .exp-div {
   border: 1px solid hsl(210, 33%, 76%);
   border-radius: 10px;
-  width: 39rem;
+  background-color: hsl(210, 100%, 42%);
+  width: 42rem;
   padding: 0 0 0 2rem;
-  margin: 0 0 1.2rem 0;
+  margin: 0 0 1.6rem 0;
   font-size: 0.9rem;
+  color: hsl(210, 33%, 96%);
 }
 
 .exp-title {
-  color: hsl(211, 61%, 10%);
   font-family: "Roboto", sans-serif;
   margin-bottom: 0;
 }
@@ -282,8 +309,14 @@ iframe {
 
 /* Fifth Grid: Education */
 
+.education-section {
+  width: 98.9vw;
+}
+
 .education {
-  margin-top: 3.3rem;
+  padding-top: 3.3rem;
+  padding-left: 22rem;
+  background-color: hsl(210, 33%, 96%);
 }
 
 .degree-div {
