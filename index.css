@@ -314,18 +314,18 @@ iframe {
 }
 
 .education {
-  padding-top: 3.3rem;
+  padding-top: 6rem;
   padding-left: 22rem;
   background-color: hsl(210, 33%, 96%);
+  height: 100vh;
 }
 
 .degree-div {
   background-color: hsl(0, 0%, 100%);
   border: 1px solid hsl(210, 33%, 76%);
-  width: 38rem;
-  padding: 0 0 1rem 2rem;
+  margin-bottom: 5rem;
+  width: 37rem;
   border-radius: 10px;
-  margin-bottom: 3.3rem;
 }
 
 .school-logo-name {
@@ -336,29 +336,26 @@ iframe {
 .dm-degree-name {
   color: hsl(210, 100%, 42%);
   font-family: "Roboto", sans-serif;
-  padding-top: 0.5rem;
-  padding-left: 1.5rem;
-}
-
-.jw-degree-name {
-  padding-left: 2rem;
+  padding-left: 0.2rem;
+  margin-bottom: 0;
 }
 
 .sub-degree {
-  padding-left: 1.5rem;
+  padding-left: 0.3rem;
+  margin: 0.2rem 0 0 0;
 }
 
 .devmountian-logo {
-  padding: 2.9rem 0 1rem 0;
-  width: 5.5rem;
-  height: 5.5rem;
+  padding: 0.3rem 0 0 0;
+  width: 7rem;
+  height: 7rem;
 }
 
 .jw-logo {
-  padding: 3.3rem 0 0 0.5rem;
+  padding: 1rem 0 0.9rem 1rem;
   margin-right: 0.6rem;
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 5.8rem;
+  height: 5.8rem;
 }
 
 .degree-details {
