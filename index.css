@@ -278,19 +278,20 @@ iframe {
 /* Fourth Grid: Experience*/
 
 .experience {
-  padding-top: 1.6rem;
+  padding-top: 2.2rem;
   background-color: hsl(0, 0%, 100%);
   padding-left: 22rem;
+  height: 100vh;
 }
 
 .exp-div {
   border: 1px solid hsl(210, 33%, 76%);
   border-radius: 10px;
   background-color: hsl(210, 100%, 42%);
-  width: 42rem;
-  padding: 0 0 0 2rem;
-  margin: 0 0 1.6rem 0;
-  font-size: 0.9rem;
+  width: 47rem;
+  padding: 0 0 0 1.3rem;
+  margin: 0 0 2rem 0;
+  font-size: 0.85rem;
   color: hsl(210, 33%, 96%);
 }
 
@@ -311,6 +312,7 @@ iframe {
 
 .education-section {
   width: 98.9vw;
+  height: 100vh;
 }
 
 .education {
