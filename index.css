@@ -161,7 +161,7 @@ section {
   display: flex;
   flex-direction: row;
   color: hsl(210, 100%, 42%);
-  padding: 9rem 0 10rem 6rem;
+  padding: 9rem 0 10rem 10rem;
   font-size: 6rem;
 }
 
